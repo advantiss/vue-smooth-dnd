@@ -30,7 +30,9 @@
   "module": "dist/vue-smooth-dnd.esm.js",
   "jsnext:main": "dist/vue-smooth-dnd.esm.js",
   "files": [
-    "dist/*"
+    "dist/*",
+    "build/*",
+    "src/*"
   ],
   "scripts": {
     "dev": "rollup -c build/rollup.js -w",
